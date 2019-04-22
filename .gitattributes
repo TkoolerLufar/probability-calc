@@ -5,3 +5,4 @@
 *.json text
 *.html text diff=html
 *.vue text
+*.svg text
