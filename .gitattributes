@@ -1,0 +1,7 @@
+.gitattributes text
+.gitignore text
+*.md text
+*.js text
+*.json text
+*.html text diff=html
+*.vue text
