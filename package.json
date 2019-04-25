@@ -51,5 +51,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "vue": {
+    "publicPath": "https://tkoolerlufar.github.io/probability-calc/",
+    "outputDir": "docs"
+  }
 }
