@@ -8,7 +8,7 @@
       <v-spacer></v-spacer>
       <v-btn
         flat
-        href="https://github.com/Tkooler/probability-calc.git"
+        href="https://github.com/TkoolerLufar/probability-calc.git"
         target="_blank"
       >
         <span class="mr-2">GitHub (予定)</span>
