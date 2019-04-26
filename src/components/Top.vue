@@ -19,7 +19,7 @@
 
       <v-flex xs12>
         <div class="font-weight-regular">
-          の確率で成功する思考を
+          の確率で成功する試行を
         </div>
       </v-flex>
 
@@ -45,11 +45,11 @@
 
       <v-flex xs12>
         <div class="font-weight-regular">
-          以上成功する確率は
+          成功する確率は
           <span class="font-weight-bold">
             {{ gachaWinningRate }}%
           </span>
-          です。
+          くらいです。
         </div>
       </v-flex>
     </v-layout>
