@@ -58,39 +58,6 @@
 
 <script>
   /**
-   * ［★7］りんごのスキル
-   * @returns {number} 順列
-   * @param {number} n
-   * @param {number} r
-   */
-  function permutation(n, r) {
-    var p = 1;
-    while (r) {
-      p *= n;
-      n--;
-      r--;
-    }
-    return p;
-  }
-
-  /**
-   * @returns {number} 階乗
-   * @param {number} n
-   */
-  function getFactorial(n) {
-    return permutation(n, n);
-  }
-
-  /**
-   * @returns {number} 組み合わせ。 nCr
-   * @param {number} n
-   * @param {number} r
-   */
-  function combination(n, r) {
-    return permutation(n, r) / getFactorial(r);
-  }
-
-  /**
    * 累乗
    * @returns {number} 冪
    * @param {number} x 仮数
@@ -117,11 +84,15 @@
    */
   function calcGacha(probabilityPerTry, numTries, numExpectedSuccesses) {
     var p = 1;
+    var combination = 1;
     for (var i = 0; i < numExpectedSuccesses; i++) {
-      p -=
+      if (i) {
+        combination = combination *
+        (numTries-i+1) / i;
+      }
+      p -= combination *
         exponentiate(probabilityPerTry, i) *
-        exponentiate(1-probabilityPerTry, numTries-i) *
-        combination(numTries, i);
+        exponentiate(1-probabilityPerTry, numTries-i);
     }
     return p;
   }
