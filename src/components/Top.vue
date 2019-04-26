@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  /**
+/**
    * 累乗
    * @returns {number} 冪
    * @param {number} x 仮数
@@ -111,14 +111,18 @@
           p = Number(this.probabilityPerTry)/100,
           N = Number(this.numTries),
           n = Number(this.numExpectedSuccesses);
-        if(!(isFinite(p) && isFinite(N) && isFinite(n)))
-          return NaN;
+        if(!isFinite(p) || ![N, n].reduce(
+          (result, x) => result && Number.isSafeInteger(x),
+          true
+        )) {
+          return '????';
+        }
         if(p<0)return NaN;
         if(p>1)return NaN;
         if(N<1)return NaN;
         if(N<n)return NaN;
-        if(n<1)return NaN;
-        if(n>999)return '????';
+        if(n<0)return NaN;
+        if(n>9999)return '????';
         return calcGacha(
           this.probabilityPerTry/100,
           this.numTries,
