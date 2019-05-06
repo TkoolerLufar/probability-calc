@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "https://tkoolerlufar.github.io/probability-calc/js/chunk-vendors.c4230a26.js"
   },
   {
-    "revision": "3a59d871d92b3a467697",
-    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.4044a524.js"
+    "revision": "fea6d4a145965cb683a0",
+    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.6dd61149.js"
   },
   {
-    "revision": "b78ad248bb905857281943dc59df3081",
+    "revision": "2c6531bc05c951a2d62ac517ac756266",
     "url": "https://tkoolerlufar.github.io/probability-calc/index.html"
   },
   {
