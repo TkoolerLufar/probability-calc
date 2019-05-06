@@ -11,7 +11,7 @@
         href="https://github.com/TkoolerLufar/probability-calc.git"
         target="_blank"
       >
-        <span class="mr-2">GitHub (予定)</span>
+        <span class="mr-2">GitHub</span>
         <v-icon>open_in_new</v-icon>
       </v-btn>
     </v-toolbar>
