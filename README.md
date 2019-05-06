@@ -8,6 +8,10 @@
 - public/manifest.json
 - ./vue.config.js
 
+### 主要ロジックはどこ?
+
+src/ 以下に置いてあります。
+
 ### 使用技術
 
 - node.js
