@@ -16,18 +16,18 @@
     </v-toolbar>
 
     <v-content>
-      <Top/>
+      <ProbabilityCalc/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Top from './components/Top'
+import ProbabilityCalc from './components/ProbabilityCalc'
 
 export default {
   name: 'App',
   components: {
-    Top
+    ProbabilityCalc
   },
   data () {
     return {
