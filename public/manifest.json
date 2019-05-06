@@ -1,6 +1,7 @@
 {
-  "name": "probability-calc",
-  "short_name": "probability-calc",
+  "lang": "ja",
+  "name": "例のあれがああなる確率計算機",
+  "short_name": "あれの確率",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
