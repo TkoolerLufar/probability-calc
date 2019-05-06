@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "https://tkoolerlufar.github.io/probability-calc/js/app.6dd61149.js"
   },
   {
-    "revision": "2c6531bc05c951a2d62ac517ac756266",
+    "revision": "58dab3c2d097f49ff5cb0201b2eee92e",
     "url": "https://tkoolerlufar.github.io/probability-calc/index.html"
   },
   {
