@@ -84,11 +84,12 @@
   function exponentiate(x, y) {
     var result = 1;
     while (y) {
-      if (y&1) {
+      if (y%2) {
         result *= x;
+        y--;
       }
       x *= x;
-      y >>= 1;
+      y *= 0.5;
     }
     return result;
   }
