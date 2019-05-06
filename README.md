@@ -4,7 +4,9 @@
 
 ### アプリの名前とかそういうのどこに定義してるの?
 
-[vue.config.js](./vue.config.js)
+- public/index.html
+- public/manifest.json
+- ./vue.config.js
 
 ### 使用技術
 
