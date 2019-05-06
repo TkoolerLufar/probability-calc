@@ -4,13 +4,13 @@
       text-xs-start
       wrap
     >
-      <v-flex xs12 sm4>
+      <v-flex xs7 sm4>
         <div class="font-weight-regular">
           1回あたり
         </div>
       </v-flex>
 
-      <v-flex xs12 sm8>
+      <v-flex xs5 sm8>
         <v-text-field
           v-model="probabilityPerTry"
           type="number"
@@ -22,13 +22,13 @@
         />
       </v-flex>
 
-      <v-flex xs12 sm4>
+      <v-flex xs7 sm4>
         <div class="font-weight-regular">
           の確率で成功する試行を
         </div>
       </v-flex>
 
-      <v-flex xs12 sm8>
+      <v-flex xs5 sm8>
         <v-text-field
           v-model="numTries"
           type="number"
@@ -40,13 +40,13 @@
         />
       </v-flex>
 
-      <v-flex xs12 sm4>
+      <v-flex xs7 sm4>
         <div class="font-weight-regular">
           繰り返して、少なくとも
         </div>
       </v-flex>
 
-      <v-flex xs12 sm8>
+      <v-flex xs5 sm8>
         <v-text-field
           v-model="numExpectedSuccesses"
           type="number"
