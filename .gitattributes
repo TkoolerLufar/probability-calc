@@ -6,3 +6,4 @@
 *.html text diff=html
 *.vue text
 *.svg text
+yarn.lock text
