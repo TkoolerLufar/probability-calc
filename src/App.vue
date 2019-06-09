@@ -2,7 +2,7 @@
   <v-app>
     <v-toolbar app dark color="primary">
       <v-toolbar-title class="headline text-uppercase">
-        <span class="font-weight-light">あれがああなる確率</span>
+        <span class="font-weight-light">あれの確率</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
