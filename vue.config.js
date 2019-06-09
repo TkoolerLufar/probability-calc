@@ -11,8 +11,8 @@ var it = {
       // 日本語しか提供しません
       "lang":"ja"
     },
-    // テーマ色。 Vuetify に合わせる
-    "themeColor":colors.blue.darken2,
+    // テーマ色。 Android だとステータスバーとかに使う。 Vuetify より暗め
+    "themeColor":colors.blue.darken4,
     // iOS に昔から提供されてる「ホーム画面に追加」との互換性。
     // 懸念事項読んだところ single-view app なら問題なさそうなのでON
     "appleMobileWebAppCapable":"yes",
