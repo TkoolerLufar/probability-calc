@@ -4,12 +4,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://tkoolerlufar.github.io/probability-calc/css/chunk-vendors.9dd35c5c.css"
   },
   {
-    "revision": "770d7d44ae9f60a688fa759fae3a1533",
+    "revision": "15a18df7afd9a32e81fe8f2ed6d681a9",
     "url": "https://tkoolerlufar.github.io/probability-calc/index.html"
   },
   {
-    "revision": "5ce87bd5e4064edf9a18",
-    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.3ff7d02e.js"
+    "revision": "b0439f5e4a1bb1524d04",
+    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.c1b5244e.js"
   },
   {
     "revision": "bade123cde3e9e2ab2c3",
