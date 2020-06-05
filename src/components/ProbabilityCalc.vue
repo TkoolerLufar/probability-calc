@@ -33,7 +33,7 @@
           v-model="numTries"
           type="number"
           min="1"
-          max="2147483647"
+          v-bind:max="Number.MAX_SAFE_INTEGER"
           step="1"
           hint="試行回数"
           suffix="回"
