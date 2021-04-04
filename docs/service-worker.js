@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://tkoolerlufar.github.io/probability-calc/precache-manifest.358a110a5c3e023e1f489de7519a5dcc.js"
+  "https://tkoolerlufar.github.io/probability-calc/precache-manifest.26aeac1b54756e6e341a9dcbe648a284.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "probability-calc"});
