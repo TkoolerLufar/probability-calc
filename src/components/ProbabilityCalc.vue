@@ -109,7 +109,7 @@
     // 期待する成功数が試行回数の半分超なら逆の事象を計算した方が速い
     if(numExpectedSuccesses * 2 > numTries + 1) {
       return 1 - calcGacha(
-        probabilityPerTry,
+        1 - probabilityPerTry,
         numTries,
         numTries - numExpectedSuccesses + 1
       );
