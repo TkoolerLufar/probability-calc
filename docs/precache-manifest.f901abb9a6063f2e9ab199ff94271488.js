@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c811b9c0a497ec4f61cb",
-    "url": "https://tkoolerlufar.github.io/probability-calc/css/chunk-vendors.72f0d7ec.css"
+    "revision": "c7f7fe1c3aa3f9e6f828",
+    "url": "https://tkoolerlufar.github.io/probability-calc/css/chunk-vendors.403a1f93.css"
   },
   {
-    "revision": "c4f8ee540391fccde64971ef8ea2c2dd",
+    "revision": "3f4dbd0d5424fab15813a35fd9fe4cff",
     "url": "https://tkoolerlufar.github.io/probability-calc/index.html"
   },
   {
-    "revision": "f66bc4b1dd909c6e53b6",
-    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.86deb64e.js"
+    "revision": "3f285ac89b79fb389066",
+    "url": "https://tkoolerlufar.github.io/probability-calc/js/app.ebc42038.js"
   },
   {
-    "revision": "c811b9c0a497ec4f61cb",
-    "url": "https://tkoolerlufar.github.io/probability-calc/js/chunk-vendors.74ca5e9b.js"
+    "revision": "c7f7fe1c3aa3f9e6f828",
+    "url": "https://tkoolerlufar.github.io/probability-calc/js/chunk-vendors.15600575.js"
   },
   {
     "revision": "466a0840f2fac951d1c19f37fbea004b",
