@@ -19,6 +19,20 @@ var it = {
     // Service Worker を部分的にカスタマイズしたい場合は InjectManifest
     // このプロジェクトでは GenerateSW して全自動で作ってもらいます。
     "workboxPluginMode":"GenerateSW"
+  },
+  "chainWebpack": (config) => {
+    config.resolve.alias.set('vue', '@vue/compat');
+    config.module
+      .rule('vue')
+      .use('vue-loader')
+      .tap((options) => ({
+        ...options,
+        "compilerOptions": {
+          "compatConfig": {
+            "MODE": 2
+          }
+        }
+      }));
   }
 };
 
