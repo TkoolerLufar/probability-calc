@@ -9232,10 +9232,10 @@ vue@~3.2.47:
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-vuetify@^2.6.10:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.7.2.tgz#b2b687e519257d789a63b87c418f98099f38990f"
-  integrity sha512-qr04ww7uzAPQbpk751x4fSdjsJ+zREzjQ/rBlcQGuWS6MIMFMXcXcwvp4+/tnGsULZxPMWfQ0kmZmg5Yc/XzgQ==
+vuetify@~3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.0.7.tgz#2f7b44f02ae0a91b34717eaf9f391d5ced4973e9"
+  integrity sha512-FpMlngW5euwad1DTuJGsS6o4rOdZvPjCVPVPJMiCU52/IcFHuSpjvrSkk7WE1HwFqwc3z/LzZ0p+cEmDinkNlA==
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
