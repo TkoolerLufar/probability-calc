@@ -1,16 +1,33 @@
-import Vue from 'vue'
-import Vuetify from 'vuetify/lib'
-import 'vuetify/dist/vuetify.min.css'
-import ja from 'vuetify/es5/locale/ja'
+import { createVuetify } from 'vuetify'
+import 'vuetify/styles'
+import { aliases, mdi } from 'vuetify/iconsets/mdi'
+import { ja } from 'vuetify/locale'
+import colors from 'vuetify/lib/util/colors'
 
-Vue.use(Vuetify);
+// Vue 3.2 移行のため Vue.use の呼び出しを削除
 
-export default new Vuetify({
+export default createVuetify({
   icons: {
-    iconfont: 'md',
+    defaultSet: 'mdi',
+    aliases,
+    sets: {
+      mdi,
+    },
   },
-  lang: {
-    locales: { ja },
-    current: 'ja'
+  locale: {
+    locale: 'ja',
+    messages: { ja },
+  },
+  // テーマ色。 Android だとステータスバーとかに使う。 Vuetify より暗め
+  theme: {
+    themes: {
+      light: {
+        primary: colors.blue.darken4,
+      },
+      dark: {
+        primary: colors.blue.darken4,
+      },
+    },
+    defaultTheme: 'light',
   },
 })
