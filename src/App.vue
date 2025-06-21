@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar dark color="primary">
+    <v-app-bar theme="dark" color="primary">
       <v-toolbar-title class="headline text-uppercase">
         <span class="font-weight-light">あれの確率</span>
       </v-toolbar-title>
