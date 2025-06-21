@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify/lib'
+import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import {ja} from 'vuetify/locale'
 import {default as colors} from 'vuetify/lib/util/colors';
