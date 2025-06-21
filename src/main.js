@@ -1,11 +1,6 @@
-import Vue from 'vue'
+import {createApp} from 'vue'
 import vuetify from './plugins/vuetify'
 import App from './App.vue'
 import './registerServiceWorker'
 
-Vue.config.productionTip = false
-
-new Vue({
-  vuetify,
-  render: h => h(App),
-}).$mount('#app')
+createApp(App).use(vuetify).mount('#app')

@@ -1,10 +1,7 @@
-import Vue from 'vue'
 import {createVuetify} from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import {ja} from 'vuetify/locale'
 import {default as colors} from 'vuetify/lib/util/colors';
-
-Vue.use(Vuetify);
 
 export default createVuetify({
   icons: {
