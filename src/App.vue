@@ -6,7 +6,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
-        text
+        variant="text"
         href="https://github.com/TkoolerLufar/probability-calc.git"
         target="_blank"
       >
