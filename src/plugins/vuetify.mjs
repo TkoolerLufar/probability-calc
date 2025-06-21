@@ -1,12 +1,12 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
+import {createVuetify} from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import {ja} from 'vuetify/locale'
 import {default as colors} from 'vuetify/lib/util/colors';
 
 Vue.use(Vuetify);
 
-export default new Vuetify({
+export default createVuetify({
   icons: {
     iconfont: 'md',
   },
