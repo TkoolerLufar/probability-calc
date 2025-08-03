@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar theme="dark" color="primary">
+    <v-app-bar color="primary">
       <v-toolbar-title class="text-h5 text-uppercase">
         <span class="font-weight-light">あれの確率</span>
       </v-toolbar-title>
@@ -11,7 +11,7 @@
         target="_blank"
       >
         <span class="mr-2">GitHub</span>
-        <v-icon>open_in_new</v-icon>
+        <v-icon icon="open_in_new" />
       </v-btn>
     </v-app-bar>
 

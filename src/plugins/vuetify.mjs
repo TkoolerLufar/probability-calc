@@ -1,6 +1,7 @@
 import {createVuetify} from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
+import { aliases, md } from 'vuetify/iconsets/md'
 import 'vuetify/dist/vuetify.min.css'
 import {ja} from 'vuetify/locale'
 import {default as colors} from 'vuetify/lib/util/colors';
@@ -9,7 +10,11 @@ export default createVuetify({
   components,
   directives,
   icons: {
-    iconfont: 'md',
+    defaultSet: 'md',
+    aliases,
+    sets: {
+      md,
+    },
   },
   theme: {
     themes: {
