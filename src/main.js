@@ -1,11 +1,11 @@
-import Vue from 'vue'
+import {configureCompat, createApp} from 'vue'
 import vuetify from './plugins/vuetify'
 import App from './App.vue'
 import './registerServiceWorker'
 
-Vue.config.productionTip = false
+configureCompat({
+    "COMPONENT_ASYNC": false,
+    "COMPONENT_V_MODEL": false
+})
 
-new Vue({
-  vuetify,
-  render: h => h(App),
-}).$mount('#app')
+createApp(App).use(vuetify).mount('#app')

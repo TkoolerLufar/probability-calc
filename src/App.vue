@@ -1,12 +1,12 @@
 <template>
   <v-app>
-    <v-app-bar app dark color="primary">
-      <v-toolbar-title class="headline text-uppercase">
+    <v-app-bar theme="dark" color="primary">
+      <v-toolbar-title class="text-h5 text-uppercase">
         <span class="font-weight-light">あれの確率</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
-        text
+        variant="text"
         href="https://github.com/TkoolerLufar/probability-calc.git"
         target="_blank"
       >

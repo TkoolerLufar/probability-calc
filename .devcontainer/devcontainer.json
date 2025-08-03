@@ -3,15 +3,9 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"installYarnUsingApt": true,
-			"version": "16",
-			"pnpmVersion": "latest",
-			"nvmVersion": "latest"
-		}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

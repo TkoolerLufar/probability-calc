@@ -1,16 +1,15 @@
 <template>
   <v-container>
-    <v-layout
-      text-xs-start
-      wrap
+    <v-row
+      text-start
     >
-      <v-flex xs7 sm4>
+      <v-col cols="7" sm="4">
         <div class="font-weight-regular">
           1回あたり
         </div>
-      </v-flex>
+      </v-col>
 
-      <v-flex xs5 sm8>
+      <v-col cols="5" sm="8">
         <v-text-field
           v-model="probabilityPerTry"
           type="number"
@@ -20,15 +19,15 @@
           hint="成功率"
           suffix="%"
         />
-      </v-flex>
+      </v-col>
 
-      <v-flex xs7 sm4>
+      <v-col cols="7" sm="4">
         <div class="font-weight-regular">
           の確率で成功する試行を
         </div>
-      </v-flex>
+      </v-col>
 
-      <v-flex xs5 sm8>
+      <v-col cols="5" sm="8">
         <v-text-field
           v-model="numTries"
           type="number"
@@ -38,15 +37,15 @@
           hint="試行回数"
           suffix="回"
         />
-      </v-flex>
+      </v-col>
 
-      <v-flex xs7 sm4>
+      <v-col cols="7" sm="4">
         <div class="font-weight-regular">
           繰り返して、少なくとも
         </div>
-      </v-flex>
+      </v-col>
 
-      <v-flex xs5 sm8>
+      <v-col cols="5" sm="8">
         <v-text-field
           v-model="numExpectedSuccesses"
           type="number"
@@ -56,9 +55,9 @@
           hint="期待する成功回数"
           suffix="回"
         />
-      </v-flex>
+      </v-col>
 
-      <v-flex xs12>
+      <v-col cols="12">
         <div class="font-weight-regular">
           成功する確率は
           <span class="font-weight-bold">
@@ -66,8 +65,8 @@
           </span>
           くらいです。
         </div>
-      </v-flex>
-    </v-layout>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
