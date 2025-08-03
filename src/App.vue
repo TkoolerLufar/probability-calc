@@ -11,7 +11,7 @@
         target="_blank"
       >
         <span class="mr-2">GitHub</span>
-        <v-icon>open_in_new</v-icon>
+        <v-icon icon="open_in_new" />
       </v-btn>
     </v-app-bar>
 
